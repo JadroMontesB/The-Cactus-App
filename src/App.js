@@ -1,7 +1,7 @@
 import "./App.css";
 
-import NavBar from "./layouts/navBar";
-import Footer from "./layouts/footer";
+import NavBar from "./components/navBar";
+import Footer from "./components/footer";
 import HomePage from "./components/home";
 import Menu from "./components/menu";
 import Online_Shop from "./components/online_shop";
@@ -10,6 +10,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.min.js";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 
 function App() {
     return (

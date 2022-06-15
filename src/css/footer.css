@@ -1,0 +1,115 @@
+.footer {
+    background-color: #212429;
+    color: white;
+}
+
+.footer hr {
+    margin-left: 70%;
+    margin-right: 0%;
+}
+
+.footer p {
+    font-size: 20px;
+    font-family: "Noto Sans JP", sans-serif;
+    text-align: justify;
+}
+
+.footer dt {
+    font-size: 21px;
+    text-align: right;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.footer h2 {
+    font-size: 35px;
+    font-family: "Jost", sans-serif;
+}
+
+.footer h3 {
+    font-size: 28px;
+    text-align: right;
+    font-family: "Jost", sans-serif;
+}
+
+.footer h4 {
+    font-family: "Jost", sans-serif;
+}
+
+/* Menu & About Part */
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right {
+    padding: 10px;
+    flex: 50%;
+}
+
+@media (max-width: 800px) {
+    .flex-item-right,
+    .flex-item-left {
+        flex: 100%;
+    }
+}
+
+/* Location */
+
+.location p {
+    font-size: 17px;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.location h3 {
+    font-size: 28px;
+    text-align: left;
+}
+
+.location hr {
+    margin-left: 0%;
+    margin-right: 1%;
+}
+
+/* Hours */
+
+.hours p {
+    font-size: 17px;
+    text-align: right;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.hours hr {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+/* Social Media Icons */
+
+.social-media hr {
+    margin-left: 0%;
+    margin-right: 0%;
+}
+
+.social-media p {
+    text-align: center;
+    font-family: "Noto Sans JP", sans-serif;
+}
+
+.flex-container-sm {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-sm {
+    padding: 10px;
+    flex: 10%;
+}

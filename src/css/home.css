@@ -1,0 +1,146 @@
+.home h1 {
+    font-family: "Dancing Script", cursive;
+}
+
+.home h2 {
+    font-family: "Jost", sans-serif;
+}
+
+.home h4{
+    font-size: 23px;
+    font-family: "Jost", sans-serif;
+    text-align: center;
+}
+
+.home p{
+    font-size: 23px;
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: justify;
+}
+
+/* Cactu's & Pets Info */
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    text-align: center;
+}
+
+.flex-item-left-info {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right-info {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right-info img {
+
+    padding: 10px;
+    width: 470px;
+    height: 400px;
+    float: right;
+}
+
+.flex-item-left-pet {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-right-pet {
+    padding: 10px;
+    flex: 50%;
+}
+
+.flex-item-left-pet img {
+
+    padding: 10px;
+    width: 470px;
+    height: 400px;
+    float: left;
+}
+
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+
+    
+.flex-item-right-info img {
+
+    padding: 10px;
+    width: 350px;
+    height: 290px;
+}
+
+.flex-item-left-pet img {
+
+    padding: 10px;
+    width: 350px;
+    height: 290px;
+}
+
+.flex-item-right-pet {
+
+    order: 0;
+
+}
+
+.flex-item-left-pet {
+
+    order: 1;
+
+}
+}
+
+
+/* Menu Icons */
+
+.fondo {
+    box-sizing: border-box;
+    display: grid;
+    grid-gap: 2rem; /*la distancia entre los cuadros */
+    grid-template-columns: repeat(12, 1fr);
+    padding: 1, 8rem; /**La posicion entre el carrusel y los cuadros */
+    margin: 0 auto;
+    max-width: 70rem; /**El tamano de los cuadros */
+    width: 100%;
+}
+
+.razones {
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.razones h1 {
+    text-align: center;
+}
+
+.tarjeta {
+    border-radius: 1rem;
+    grid-column-end: span 3;
+    padding: 1rem;
+}
+
+.tarjetas h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.tarjeta .img-icon {
+    max-width: 10rem;
+    width: 100%;
+}
+
+@media (max-width: 35rem) {
+    .fondo {
+        grid-gap: 1, 8rem 0;
+    }
+
+    .fondo > * {
+        grid-column-end: span 12;
+    }
+}
+

@@ -1,4 +1,3 @@
-import "./css/online_shop.css";
 import React from "react";
 
 const Online_shop = () => {
